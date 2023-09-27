@@ -11,7 +11,7 @@ import { Center, Box, SegmentedControl } from "@mantine/core";
 export default function Home() {
   const [weather, setWeather] = useState("");
   const [city, setCity] = useState("");
-  const apiKey = "09aeea27fa548f6f610eeff782b465bf";
+  const apiKey = "YOUR API KEY";
   const [units, setUnits] = useState("metric");
   const renderTemperature = (value) => {
     if (units === "metric") {
